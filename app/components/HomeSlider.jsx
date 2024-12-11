@@ -35,11 +35,11 @@ const HomeSlider = () => {
           <SwiperSlide>
             <div
               style={{
-                width: "100vw",
-                height: "100vw",
+                width: "100%",
+                height: "100%",
                 backgroundImage:
-                  "url('https://image.tmdb.org/t/p/original/jWXrQstj7p3Wl5MfYWY6IHqRpDb.jpg')",
-                backgroundSize: "contain",
+                  "url('https://image.tmdb.org/t/p/original/mQZJoIhTEkNhCYAqcHrQqhENLdu.jpg')",
+                backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
               }}
             ></div>
@@ -47,11 +47,11 @@ const HomeSlider = () => {
           <SwiperSlide>
             <div
               style={{
-                width: "100vw",
-                height: "100vw",
+                width: "100%",
+                height: "100%",
                 backgroundImage:
                   "url('https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg')",
-                backgroundSize: "contain",
+                backgroundSize: "cover",
                 backgroundRepeat: " repeat-x",
               }}
             ></div>
@@ -59,11 +59,11 @@ const HomeSlider = () => {
           <SwiperSlide>
             <div
               style={{
-                width: "100vw",
-                height: "100vw",
+                width: "100%",
+                height: "100%",
                 backgroundImage:
                   "url('https://image.tmdb.org/t/p/original/tElnmtQ6yz1PjN1kePNl8yMSb59.jpg')",
-                backgroundSize: "contain",
+                backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
               }}
             ></div>

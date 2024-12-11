@@ -5,7 +5,8 @@ const Page = async ({ params }) => {
 
   // API 요청 URL을 수정하여 동적 영화 상세 페이지 데이터를 가져옵니다.
   const data = await fetch(
-    `https://api.themoviedb.org/3/tv/${id}?language=ko-KR&page=1`,
+    `https://api.themoviedb.org/3/tv/${id}?language=ko-KR`,
+
     {
       method: "GET",
       headers: {
@@ -24,7 +25,7 @@ const Page = async ({ params }) => {
         title={data.name}
         release_date={data.first_air_date}
         overview={data.overview}
-        vote_average={data.vote_count}
+        vote_average={data.vote_average}
       />
     </div>
   );

@@ -12,7 +12,7 @@ const Main_tv = async () => {
   };
 
   const data = await fetch(
-    "https://api.themoviedb.org/3/tv/popular?language=ko-KR&page=1",
+    "https://api.themoviedb.org/3/trending/tv/day?language=ko-KR",
     options
   )
     .then((res) => res.json())
