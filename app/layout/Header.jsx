@@ -15,7 +15,6 @@ const Header = () => {
         style={{
           width: "100vw",
           height: "70px",
-          //   borderBottom: "1px solid white",
           display: "flex",
           alignItems: "center",
         }}
